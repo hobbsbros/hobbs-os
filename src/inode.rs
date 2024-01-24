@@ -14,6 +14,7 @@ pub struct Inode {
     pointers: [Option<Pointer>; MAX_POINTERS],
 }
 
+/// Implements behaviors in inodes.
 impl Inode {
     /// Constructs a new inode.
     pub fn new(name: [char; MAX_FILENAME_LENGTH], pointers: [Option<Pointer>; MAX_POINTERS]) -> Self {
@@ -26,6 +27,8 @@ impl Inode {
     /// Converts an inode into a bytearray.
     pub fn to_bytes(&self) -> [Byte; INODE_SIZE] {
         let mut output = [0; INODE_SIZE];
+
+        todo!();
 
         output
     }

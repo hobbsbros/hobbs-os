@@ -1,7 +1,6 @@
 //! Main library.
 
 #![no_std]
-#![deny(missing_docs)]
 
 mod block;
 mod inode;

@@ -5,4 +5,15 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "simpleshell"
+path = "src/main.rs"
+
+[lib]
+name = "syslib"
+path = "src/lib.rs"
+
 [dependencies]
+
+[lints.rust]
+missing_docs = "deny"
