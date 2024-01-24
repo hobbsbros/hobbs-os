@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "simpleshell"
+name = "hobbs-os"
 version = "0.1.0"
